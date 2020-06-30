@@ -11,4 +11,9 @@ const router = new VueRouter({
   routes
 })
 
+router.beforeEach((to, form, next) => {
+  if (to.meta && to.meta.title) document.title = to.meta.title
+  next()
+})
+
 export default router

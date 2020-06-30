@@ -1,6 +1,6 @@
 const isDev = process.env.NODE_ENV === 'development'
-const publicPath = isDev ? '/' : '/image/ys_service/app'
-const rootPath = isDev ? '/' : '/completion/index/index'
+const publicPath = isDev ? '/' : '/image/fl/exhibition'
+const rootPath = isDev ? '/' : '/fl/show/exhibition'
 
 module.exports = {
   debug: false,
